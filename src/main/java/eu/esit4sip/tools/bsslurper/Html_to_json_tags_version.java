@@ -117,7 +117,7 @@ public class Html_to_json_tags_version {
 			tags_url = link.attr("href");
 
 			/* Parse xml to json method call - tags parsing */
-			xml_to_json("output.json", tags_name, "https://wiki.esit4sip.eu"
+			xml_to_json("tags.json", tags_name, "https://wiki.esit4sip.eu"
 					+ tags_url);
 		}
 	}

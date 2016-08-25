@@ -112,7 +112,7 @@ public class Web_to_json_parser {
 		
         /*Parse xml to json method call - main document parsing*/
 		System.out.println("Main document results:");
-		xml_to_json("output.json", pageName, content_element_title, content_element_content);
+		xml_to_json("pages.json", pageName, content_element_title, content_element_content);
 		 /*Parse xml to json method call - tags parsing*/
 		System.out.println("Tags results:");
 		xml_to_json("output.json", pageName, content_element_title, content_element_tags);
